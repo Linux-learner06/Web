@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  display: grid;
+  font-family: Arial, sans-serif;
+  background: #ecf0f1;
+  line-height: 1.6;
+  width: 96rem;
+  min-height: auto;
+}
+
+.App {
+  min-height: 100vh;
+  width: 96rem;
+}
+
+
+
+/* Основной контент */
+main {
+  display: grid;
+  width: 96rem;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+main h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  transform: translateY(50%);
+}
+/*Верхние одежды*/
+
+.all {
+    padding-top: 50px;
+    color: #000;
+    width: 1400px;
+    margin: 2rem 2rem;
+    padding: 4rem 2rem;
+}
+
+.all h3 {
+   
+    margin-left: 75px;
+    font-weight: 600;
+    font-size: 31px;
+    color: #000;
+    float: left;
+    margin-top: 10px;
+}
+
+.all .see-all {
+    
+    
+    color: #f9f7f7;
+    background: #000;
+    border-radius: 5px;
+    padding: 10px 15px;
+    float: right;
+    display: block;
+    transition: all 500ms ease;
+}
+
+.all .see-all:hover {
+    transform: scale(1.1);
+}
+
+.all .clothes {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+}
+
+.all .clothes .block span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.all .clothes .block a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.all .clothes .block img {
+    height: 300px;
+    width: 250px;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+
+.all .clothes .block .money {
+    text-align: left;
+    width: 250px;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.all .clothes .block .name {
+    text-align: left;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: auto;
+    transform: translateY(-100%);
+}
+.line {
+    width: 90rem;
+    height: 4px;
+    background: #000;
+    transform: translateY(1600%);
+}
+
+.under {
+    margin-top: 10px;
+    background: #2c3e50;;
+    width: 96rem;
+    height: 25rem;
+    position:fixed;
+
+}
+
+.under .nameshop {
+    padding: 50px;
+    font-size: 30px;
+}
+
+.under .nom {
+    padding: 0 50px ;
+    float: left;
+    font-size: 20px;
+}
+
+.under img {
+    transform: translateY(-50%);
+    position: sticky;
+    margin: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    float: right;
+}

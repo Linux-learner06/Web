@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none !important;
+  outline: none !important;
+}
+
+.under {
+  background: #2c3e50;
+  width: 100%;
+  height: auto;
+  position: relative;
+  color: white;
+  padding: 40px;
+}
+
+.under-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+/* Текст слева - вертикально */
+.under-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.under .nameshop {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.under-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.under .nom {
+  font-size: 18px;
+  text-align: left;
+}
+
+.under .social-links {
+  display: flex;
+  margin-left: 45px;
+  flex-direction: column;
+  text-align: left;
+  gap: 8px;
+}
+
+.under .social-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.under .social-links a:hover {
+  color: #3498db;
+  padding: 20px;
+}
+
+/* Лого справа */
+.under img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: auto;
+  transform: translateY(50%);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .under {
+    padding: 30px 20px;
+  }
+  
+  .under-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .under img {
+    margin-left: 0;
+    align-self: center;
+  }
+  
+  .under .nameshop {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .under .nom {
+    font-size: 16px;
+  }
+  
+  .under img {
+    width: 150px;
+    height: 150px;
+  }
+}
